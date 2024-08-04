@@ -31,8 +31,9 @@ In addition, please add the project folder to PYTHONPATH and `pip install` the f
 
 **Training**
 - Pre-train DAMSM models:
-  - For bird dataset: `python pretrain_DAMSM.py --cfg cfg/DAMSM/bird.yml --gpu 0`
-  - For coco dataset: `python pretrain_DAMSM.py --cfg cfg/DAMSM/coco.yml --gpu 1`
+  - For bird dataset: `!python /content/drive/MyDrive/IPML/AttnGAN-master/code/pretrain_DAMSM.py --cfg /content/drive/MyDrive/IPML/AttnGAN-master/code/cfg/DAMSM/bird.yml --gpu 0
+     `
+  
  
 - Train AttnGAN models:
   - For bird dataset: `python main.py --cfg cfg/bird_attn2.yml --gpu 2`
