@@ -2,6 +2,8 @@
 
 This project is a Text to Image Generator that converts textual descriptions(specifically of birds - like their appearances, features etc.) into images.
 The images are generated in 3 different resolutions - 64X64, 128X128 and 256X256.
+The jupyter source file - attGAN_f(2).ipynb demonstrates the code in actions and the results of the model.
+
 Pytorch implementation for reproducing AttnGAN results in the paper [AttnGAN: Fine-Grained Text to Image Generation
 with Attentional Generative Adversarial Networks]
 ### Dependencies
